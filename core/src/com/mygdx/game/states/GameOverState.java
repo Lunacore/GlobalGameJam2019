@@ -21,7 +21,7 @@ public class GameOverState extends State{
 	}
 	
 	public void enter() {
-		
+		alpha = 0;
 	}
 
 	public void render(SpriteBatch sb) {

@@ -6,10 +6,10 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.graphics.g2d.Animation.PlayMode;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.maps.MapProperties;
@@ -23,6 +23,8 @@ import com.mygdx.game.helper.Helper;
 import com.mygdx.game.input.KeyMapper.Device;
 import com.mygdx.game.input.XBoxController;
 import com.mygdx.game.states.GameState;
+import com.mygdx.game.states.HouseState;
+import com.mygdx.game.states.MarketState;
 import com.mygdx.game.states.State;
 
 public class Player extends TopDownPlayer{
@@ -41,7 +43,8 @@ public class Player extends TopDownPlayer{
 	boolean sprint = false;
 
 	BitmapFont font;
-	
+	BitmapFont fontBig;
+
 	float rw = 100;
 	float rh = 600;
 	
@@ -61,13 +64,28 @@ public class Player extends TopDownPlayer{
 		fart_tex = new Texture("fart.png");
 		
 		font = Helper.newFont("Allan-Bold.ttf", 24);
-		
+		fontBig = Helper.newFont("Allan-Bold.ttf", 65);
+
 		player_top = new Texture("char.png");
 		legs = AnimationLoader.load("legs.png", 32, 32, 0, 7, 1/15f);
 		legs.setPlayMode(PlayMode.LOOP);
 		
 		getTransform().getScale().set(2, 2);
 		
+		String txt = "GET TO YOUR HOME!";
+		
+		if(getState() instanceof HouseState) {
+			txt = "DON'T FORGET YOUR PHONE!";
+		}
+		if(getState() instanceof MarketState) {
+			txt = "GET THE TOILET PAPER!";
+		}
+				
+		GameParticle gp = new GameParticle(info.withZ(10), body.getWorldCenter(), txt , fontBig);
+		gp.setVelocity(Vector2.Y.cpy().scl(0.2f));
+		gp.setLife(2);
+		gp.setDrag(0.1f);
+		getState().putInScene(gp);
 	}
 
 	@Override

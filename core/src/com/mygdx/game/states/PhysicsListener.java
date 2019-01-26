@@ -1,24 +1,25 @@
 package com.mygdx.game.states;
 
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Contact;
+import com.badlogic.gdx.physics.box2d.Manifold;
 import com.mygdx.game.CameraZoomer;
 import com.mygdx.game.Door;
+import com.mygdx.game.MovableObject;
+import com.mygdx.game.Door.DoorType;
 import com.mygdx.game.Player;
 import com.mygdx.game.Product;
 import com.mygdx.game.Terrain;
 import com.mygdx.game.Toilet;
-import com.mygdx.game.Door.DoorType;
 import com.mygdx.game.entities.GameParticle;
 import com.mygdx.game.entities.ObjectInfo;
 import com.mygdx.game.helper.Helper;
-import com.mygdx.game.states.DefaultStateListener;
-import com.mygdx.game.states.State;
 
 public class PhysicsListener extends DefaultStateListener{
 
 	static BitmapFont font;
+	Texture poop = new Texture("poop.png");
 	
 	public PhysicsListener(State state) {
 		super(state);
@@ -43,6 +44,10 @@ public class PhysicsListener extends DefaultStateListener{
 				gp.setVelocity(Helper.randomUnit().scl(0.3f));
 				gp.setDrag(0.1f);
 				state.putInScene(gp);
+				
+				GameParticle gp2 = new GameParticle(new ObjectInfo(state, 10, 1f), player.getBodyPosition(), poop);
+				gp2.setLife(1000);
+				state.putInScene(gp2);
 
 			}
 		}
@@ -106,6 +111,16 @@ public class PhysicsListener extends DefaultStateListener{
 		}
 		
 		super.beginContact(contact);
+	}
+	
+	@Override
+	public void preSolve(Contact contact, Manifold oldManifold) {
+
+		if(compareCollision(contact, Product.class, MovableObject.class)) {
+			contact.setEnabled(false);
+		}
+		
+		super.preSolve(contact, oldManifold);
 	}
 
 }

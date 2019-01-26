@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1280" tileheight="720" infinite="0" nextlayerid="2" nextobjectid="180">
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1280" tileheight="720" infinite="0" nextlayerid="2" nextobjectid="181">
  <properties>
   <property name="ambientAlpha" type="float" value="0.2"/>
   <property name="ambientLight" type="color" value="#ff000000"/>
@@ -144,13 +144,12 @@
     <property name="class" value="com.mygdx.game.Toilet"/>
    </properties>
   </object>
-  <object id="179" type="object" x="93" y="326" width="30" height="30">
+  <object id="180" type="object" gid="21" x="42" y="377" width="31.3333" height="31.3333">
    <properties>
     <property name="bodyType" value="DynamicBody"/>
     <property name="class" value="com.mygdx.game.Product"/>
     <property name="isPhone" type="bool" value="true"/>
    </properties>
-   <ellipse/>
   </object>
  </objectgroup>
 </map>

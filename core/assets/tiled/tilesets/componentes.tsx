@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="componentes" tilewidth="629" tileheight="606" tilecount="10" columns="0">
+<tileset version="1.2" tiledversion="1.2.1" name="componentes" tilewidth="928" tileheight="928" tilecount="22" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image width="431" height="217" source="../resources/botao 1.png"/>
@@ -57,5 +57,91 @@
   <objectgroup draworder="index">
    <object id="1" x="-2" y="-2" width="183" height="182"/>
   </objectgroup>
+ </tile>
+ <tile id="10">
+  <image width="928" height="928" source="../resources/test.png"/>
+ </tile>
+ <tile id="11">
+  <image width="32" height="32" source="../resources/apple.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="6.36364" y="6.72727">
+    <polygon points="0,0 15.6364,-2.36364 22.1818,7.45455 17.4545,19.2727 6.72727,22.5455 -2.18182,10"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="12">
+  <image width="32" height="32" source="../resources/cheetos.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="6.54545" y="0.727273">
+    <polygon points="0,0 17.6364,0.545455 18.3636,29.0909 -2,29.4545"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="13">
+  <image width="32" height="32" source="../resources/dog.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="9.45455" y="1.63636">
+    <polygon points="0,0 4.90909,3.63636 10.1818,1.81818 12,5.09091 8,10 12.3636,15.4545 17.2727,18.1818 18.3636,27.0909 6,27.8182 -2.36364,25.0909 -2.54545,10.9091"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="14">
+  <image width="32" height="32" source="../resources/refrigerante.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="13.4545" y="1.63636">
+    <polygon points="0,0 -3.09091,9.27273 -3.09091,28 5.81818,29.2727 6.36364,8 3.63636,-1.09091"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="15">
+  <image width="32" height="32" source="../resources/sabonete.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="1.81818" y="5.27273">
+    <polygon points="0,0 26.7273,1.09091 28.5455,20.5455 0.727273,20.1818"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="16">
+  <image width="32" height="32" source="../resources/shampoo.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="13.8182" y="1.63636">
+    <polygon points="0,0 -2.90909,11.8182 -2.18182,27.8182 6.36364,29.0909 6.90909,6.54545 4.90909,0.363636"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="17">
+  <image width="32" height="32" source="../resources/papel.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="9.81818" y="4.54545">
+    <polygon points="0,0 14,2.18182 21.4545,4 22.3636,12 17.0909,18.7273 1.27273,23.8182 -10.5455,14.3636 -2.36364,12.1818 -3.27273,3.63636"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="18">
+  <image width="32" height="32" source="../resources/arroz.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="7.09091" y="2">
+    <polygon points="0,0 18.1818,-0.181818 18.5455,28 -0.909091,28"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="19">
+  <image width="32" height="32" source="../resources/burg.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="6.54545" y="8.90909">
+    <polygon points="0,0 9.27273,-2.72727 20.9091,-0.909091 24,6 20.9091,17.6364 -2,16.3636 -5.27273,3.45455"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="20">
+  <image width="32" height="32" source="../resources/phone.png"/>
+  <objectgroup draworder="index">
+   <object id="1" x="8" y="1.27273">
+    <polygon points="0,0 14.1818,0.727273 14.9091,28.9091 -0.363636,29.4545"/>
+   </object>
+  </objectgroup>
+ </tile>
+ <tile id="21">
+  <image width="318" height="49" source="../resources/mkt.png"/>
  </tile>
 </tileset>
