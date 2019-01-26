@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1280" tileheight="720" infinite="0" nextlayerid="2" nextobjectid="180">
+ <properties>
+  <property name="ambientAlpha" type="float" value="0.2"/>
+  <property name="ambientLight" type="color" value="#ff000000"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/componentes.tsx"/>
+ <objectgroup id="1" name="bijeto">
+  <object id="99" name="Player" x="884.667" y="926.667" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.Player"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="148" type="object" x="-2.66667" y="990.667" width="1000" height="20"/>
+  <object id="149" type="object" x="0" y="-7.33333" width="1000" height="20"/>
+  <object id="150" type="object" x="-5.33333" y="8.66667" width="20" height="1000"/>
+  <object id="151" type="object" x="979.333" y="4" width="20" height="1000"/>
+  <object id="152" type="object" x="465.333" y="821.333" width="20" height="182.667"/>
+  <object id="153" type="object" x="112" y="714.667" width="874.667" height="21.3333"/>
+  <object id="154" type="object" x="1.33333" y="294.667" width="718.667" height="21.3333"/>
+  <object id="155" type="object" x="698.667" y="105.333" width="20" height="206.667"/>
+  <object id="156" name="Mesa" type="object" x="304" y="449.333" width="392" height="113.333"/>
+  <object id="157" type="object" x="169.333" y="6.66667" width="22.6667" height="209.333"/>
+  <object id="158" name="Pia" type="object" x="10.6667" y="910.667" width="130.667" height="82.6667"/>
+  <object id="159" name="Fogão" type="object" x="185.333" y="742.667" width="72" height="70.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="160" name="Geladeira" type="object" x="270.667" y="753.333" width="70.6667" height="69.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="163" name="Cadeira" type="object" x="354.667" y="402.667" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="164" name="Cadeira" type="object" x="482" y="350" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="165" name="Cadeira" type="object" x="612.667" y="402" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="166" name="Cadeira" type="object" x="354" y="579.333" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="167" name="Cadeira" type="object" x="466" y="631.333" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="168" name="Cadeira" type="object" x="631.333" y="648.667" width="38.6667" height="38.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="169" name="Sofa" type="object" x="624" y="741.333" width="242.667" height="74.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="170" name="Planta" type="object" x="853.333" y="570.667" width="50.6667" height="50.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="171" name="Planta" type="object" x="886.667" y="56" width="50.6667" height="50.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="172" name="Sofa" type="object" x="741.716" y="181.146" width="54.6667" height="116" rotation="-23.6221">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="173" name="TV" type="object" x="958.667" y="152" width="16" height="122.667"/>
+  <object id="174" name="Mesinha" type="object" x="28" y="341.667" width="58.6667" height="77.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="175" name="Cama" type="object" x="261.333" y="22.6667" width="105.333" height="157.333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="176" name="Escrivaninha" type="object" x="474.667" y="204" width="164" height="82.6667">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+  </object>
+  <object id="177" name="Cadeira" type="object" x="424" y="124" width="48" height="48">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.MovableObject"/>
+    <property name="linearDamping" type="float" value="10"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="178" name="Vaso" type="object" x="61.3333" y="16" width="56" height="77.3333">
+   <properties>
+    <property name="class" value="com.mygdx.game.Toilet"/>
+   </properties>
+  </object>
+  <object id="179" type="object" x="93" y="326" width="30" height="30">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isPhone" type="bool" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

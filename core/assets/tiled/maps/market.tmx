@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1280" tileheight="720" infinite="0" nextlayerid="2" nextobjectid="381">
+ <properties>
+  <property name="ambientAlpha" type="float" value="0.2"/>
+  <property name="ambientLight" type="color" value="#ff000000"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/componentes.tsx"/>
+ <objectgroup id="1" name="bijeto">
+  <object id="99" name="Player" x="882" y="906.667" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.Player"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="148" type="object" x="-2.66667" y="990.667" width="1000" height="20"/>
+  <object id="149" type="object" x="0" y="-7.33333" width="1000" height="20"/>
+  <object id="150" type="object" x="-5.33333" y="8.66667" width="20" height="1000"/>
+  <object id="151" type="object" x="979.333" y="4" width="20" height="1000"/>
+  <object id="179" type="object" x="726" y="308" width="38" height="692"/>
+  <object id="180" type="object" x="527" y="12" width="38" height="692"/>
+  <object id="181" type="object" x="311" y="306" width="38" height="692"/>
+  <object id="182" type="object" x="133" y="12" width="38" height="692"/>
+  <object id="183" type="object" x="95.3333" y="21.3333" width="30" height="30">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="184" type="object" x="110" y="54.3333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="185" type="object" x="110" y="83.3333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="186" type="object" x="110" y="110.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="187" type="object" x="110" y="140.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="188" type="object" x="110" y="167.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="189" type="object" x="110" y="199.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="190" type="object" x="110" y="228.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="191" type="object" x="110" y="260.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="192" type="object" x="110" y="289.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="193" type="object" x="110" y="322.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="194" type="object" x="110" y="350.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="195" type="object" x="110" y="381.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="196" type="object" x="110" y="412.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="197" type="object" x="110" y="445.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="198" type="object" x="110" y="479.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="199" type="object" x="110" y="502.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="200" type="object" x="110" y="528.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="201" type="object" x="110" y="554.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="202" type="object" x="110" y="580.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="203" type="object" x="110" y="609.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="204" type="object" x="110" y="637.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="205" type="object" x="110" y="666.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="206" type="object" x="170" y="667.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="207" type="object" x="170" y="633.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="208" type="object" x="170" y="609.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="209" type="object" x="170" y="580.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="210" type="object" x="170" y="554.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="211" type="object" x="170" y="526.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="212" type="object" x="170" y="501.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="213" type="object" x="170" y="476.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="214" type="object" x="170" y="448.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="215" type="object" x="170" y="425.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="216" type="object" x="170" y="396.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="217" type="object" x="170" y="365.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="218" type="object" x="170" y="333.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="219" type="object" x="170" y="305.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="220" type="object" x="170" y="276.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="221" type="object" x="170" y="251.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="222" type="object" x="170" y="229.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="223" type="object" x="170" y="206.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="224" type="object" x="170" y="175.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="225" type="object" x="170" y="152.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="226" type="object" x="170" y="121.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="227" type="object" x="170" y="94.8333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="228" type="object" x="170" y="76.3333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="229" type="object" x="170" y="52.8334" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="230" type="object" x="170" y="26.8334" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBody"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="231" type="object" x="290" y="304.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="232" type="object" x="290" y="333.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="233" type="object" x="290" y="365.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="234" type="object" x="290" y="396.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="235" type="object" x="290" y="426.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="236" type="object" x="290" y="451.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="237" type="object" x="290" y="485.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="238" type="object" x="290" y="512.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="239" type="object" x="290" y="542.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="240" type="object" x="290" y="574.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="241" type="object" x="290" y="600.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="242" type="object" x="290" y="627.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="243" type="object" x="290" y="654.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="244" type="object" x="290" y="684.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="245" type="object" x="290" y="711.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="246" type="object" x="290" y="736.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="247" type="object" x="290" y="763.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="248" type="object" x="290" y="793.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="249" type="object" x="290" y="821.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="250" type="object" x="290" y="858.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="251" type="object" x="290" y="883.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="252" type="object" x="290" y="910.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="253" type="object" x="290" y="935.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="254" type="object" x="290" y="968.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="255" type="object" x="350" y="970.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="256" type="object" x="350" y="942.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="257" type="object" x="350" y="914.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="258" type="object" x="350" y="886.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="259" type="object" x="350" y="857.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="260" type="object" x="350" y="827.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="261" type="object" x="350" y="803.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="262" type="object" x="350" y="772.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="263" type="object" x="350" y="745.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="264" type="object" x="350" y="721.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="265" type="object" x="350" y="693.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="266" type="object" x="350" y="661.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="267" type="object" x="350" y="636.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="268" type="object" x="350" y="612.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="269" type="object" x="350" y="578.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="270" type="object" x="350" y="551.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="271" type="object" x="350" y="528.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="272" type="object" x="350" y="501.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="273" type="object" x="350" y="481.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="274" type="object" x="350" y="447.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="275" type="object" x="350" y="414.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="276" type="object" x="350" y="384.333" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="277" type="object" x="350" y="354.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="278" type="object" x="350" y="323.833" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="279" type="object" x="502.333" y="667.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="280" type="object" x="502.333" y="633.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="281" type="object" x="502.333" y="610.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="282" type="object" x="502.333" y="580.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="283" type="object" x="502.333" y="554.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="284" type="object" x="502.333" y="526.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="285" type="object" x="502.333" y="502.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="286" type="object" x="502.333" y="477.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="287" type="object" x="502.333" y="449.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="288" type="object" x="502.333" y="426.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="289" type="object" x="502.333" y="397.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="290" type="object" x="502.333" y="366.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="291" type="object" x="502.333" y="334.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="292" type="object" x="502.333" y="306.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="293" type="object" x="502.333" y="277.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="294" type="object" x="502.333" y="252.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="295" type="object" x="502.333" y="229.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="296" type="object" x="502.333" y="207.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="297" type="object" x="502.333" y="175.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="298" type="object" x="502.333" y="153.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="299" type="object" x="502.333" y="121.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="300" type="object" x="502.333" y="95.4168" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="301" type="object" x="502.333" y="76.9168" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="302" type="object" x="502.333" y="53.4169" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="303" type="object" x="502.333" y="27.4169" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="304" type="object" x="573" y="663.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="305" type="object" x="573" y="629.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="306" type="object" x="573" y="606.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="307" type="object" x="573" y="576.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="308" type="object" x="573" y="550.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="309" type="object" x="573" y="522.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="310" type="object" x="573" y="498.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="311" type="object" x="573" y="473.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="312" type="object" x="573" y="445.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="313" type="object" x="573" y="422.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="314" type="object" x="573" y="393.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="315" type="object" x="573" y="362.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="316" type="object" x="573" y="330.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="317" type="object" x="573" y="302.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="318" type="object" x="573" y="273.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="319" type="object" x="573" y="248.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="320" type="object" x="573" y="225.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="321" type="object" x="573" y="203.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="322" type="object" x="573" y="171.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="323" type="object" x="573" y="149.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="324" type="object" x="573" y="117.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="325" type="object" x="573" y="91.4168" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="326" type="object" x="573" y="72.9168" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="327" type="object" x="573" y="49.4169" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="328" type="object" x="573" y="23.4169" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="329" type="object" x="701" y="959.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="330" type="object" x="701" y="925.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="331" type="object" x="701" y="902.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="332" type="object" x="701" y="872.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="333" type="object" x="701" y="846.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="334" type="object" x="701" y="818.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="335" type="object" x="701" y="794.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="336" type="object" x="701" y="769.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="337" type="object" x="701" y="741.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="338" type="object" x="701" y="718.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="339" type="object" x="701" y="689.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="340" type="object" x="701" y="658.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="341" type="object" x="701" y="626.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="342" type="object" x="701" y="598.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="343" type="object" x="701" y="569.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="344" type="object" x="701" y="544.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="345" type="object" x="701" y="521.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="346" type="object" x="701" y="499.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="347" type="object" x="701" y="467.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="348" type="object" x="701" y="445.416" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="349" type="object" x="701" y="413.916" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="350" type="object" x="701" y="387.417" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="351" type="object" x="701" y="368.917" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="352" type="object" x="701" y="345.417" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="353" type="object" x="701" y="319.417" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="354" type="object" x="774.333" y="958.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="355" type="object" x="774.333" y="924.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="356" type="object" x="774.333" y="901.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="357" type="object" x="774.333" y="871.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="358" type="object" x="774.333" y="845.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="359" type="object" x="774.333" y="817.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="360" type="object" x="774.333" y="793.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="361" type="object" x="774.333" y="768.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="362" type="object" x="774.333" y="740.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="363" type="object" x="774.333" y="717.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="364" type="object" x="774.333" y="688.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="365" type="object" x="774.333" y="657.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="366" type="object" x="774.333" y="625.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="367" type="object" x="774.333" y="597.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="368" type="object" x="774.333" y="568.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="369" type="object" x="774.333" y="543.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="370" type="object" x="774.333" y="520.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="371" type="object" x="774.333" y="498.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="372" type="object" x="774.333" y="466.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="373" type="object" x="774.333" y="444.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="374" type="object" x="774.333" y="412.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="375" type="object" x="774.333" y="386.083" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="376" type="object" x="774.333" y="367.583" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="377" type="object" x="774.333" y="344.084" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="378" type="object" x="774.333" y="318.084" width="19.3333" height="19.3333">
+   <properties>
+    <property name="bodyType" value="DynamicBod"/>
+    <property name="class" value="com.mygdx.game.Product"/>
+    <property name="isToilet" type="bool" value="false"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="380" type="object" x="838" y="973.333" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="MARKET_EXIT"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

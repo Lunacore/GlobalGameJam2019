@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="1280" tileheight="720" infinite="0" nextlayerid="2" nextobjectid="203">
+ <properties>
+  <property name="ambientAlpha" type="float" value="0.2"/>
+  <property name="ambientLight" type="color" value="#ff000000"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/componentes.tsx"/>
+ <objectgroup id="1" name="bijeto">
+  <object id="90" type="object" x="0" y="0" width="800" height="800"/>
+  <object id="99" x="1470" y="1648" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.Player"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="100" type="object" x="1200" y="0" width="800" height="800"/>
+  <object id="101" type="object" x="400" y="1200" width="400" height="800"/>
+  <object id="103" type="object" x="2400" y="0" width="400" height="800"/>
+  <object id="104" type="object" x="2400" y="2400" width="800" height="800"/>
+  <object id="105" type="object" x="0" y="2400" width="800" height="800"/>
+  <object id="106" type="object" x="1200" y="2400" width="800" height="400"/>
+  <object id="107" type="object" x="2400" y="1200" width="800" height="800"/>
+  <object id="108" type="object" x="0" y="-50" width="3200" height="50"/>
+  <object id="111" type="object" x="3200" y="0" width="50" height="3200"/>
+  <object id="112" type="object" x="-50" y="0" width="50" height="3200"/>
+  <object id="113" type="object" x="0" y="3200" width="3200" height="50"/>
+  <object id="120" type="object" x="1202" y="1196" width="528" height="46"/>
+  <object id="121" type="object" x="1828" y="1204" width="172" height="44"/>
+  <object id="122" type="object" x="1952" y="1242" width="46" height="580"/>
+  <object id="123" type="object" x="1202" y="1938" width="792" height="60"/>
+  <object id="124" type="object" x="1202" y="1238" width="42" height="330"/>
+  <object id="125" type="object" x="1202" y="1698" width="50" height="244"/>
+  <object id="132" type="object" x="1234" y="1496" width="270" height="46"/>
+  <object id="133" type="object" x="1336" y="1334" width="44" height="178"/>
+  <object id="134" type="object" x="1690" y="1490" width="262" height="52"/>
+  <object id="135" type="object" x="1708" y="1296" width="36" height="202"/>
+  <object id="136" type="object" x="1860" y="1370" width="28" height="136"/>
+  <object id="137" type="object" x="1584" y="1470" width="44" height="482"/>
+  <object id="138" type="object" x="1320" y="1782" width="48" height="168"/>
+  <object id="139" type="object" x="1428" y="1782" width="72" height="172"/>
+  <object id="140" type="object" x="1700" y="1718" width="30" height="242"/>
+  <object id="141" type="object" x="1720" y="1832" width="178" height="40"/>
+  <object id="143" type="object" x="1136" y="1566" width="84" height="154">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="145" type="object" x="1294" y="1271" width="620" height="638">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="146" type="object" x="1705" y="1118" width="144" height="76">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="147" type="object" x="2007" y="1810" width="84" height="154">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="148" type="object" x="1243.33" y="782.667" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="150" type="object" x="2388.67" y="44.6667" width="26.667" height="152.667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="151" type="object" x="790.667" y="28.6667" width="26.667" height="154.667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="152" type="object" x="786.667" y="1818.67" width="26.667" height="156.667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="153" type="object" x="26.6665" y="2382.67" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="154" type="object" x="1988.67" y="3016.67" width="26.667" height="144.667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="155" type="object" x="2432.67" y="2382.67" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="156" type="object" x="2388.67" y="1832.67" width="28.667" height="142.667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="NOT_HOUSE"/>
+   </properties>
+  </object>
+  <object id="157" type="object" x="64.6665" y="786.667" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="MARKET"/>
+   </properties>
+  </object>
+  <object id="158" type="object" x="2972.67" y="1190.67" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="MARKET"/>
+   </properties>
+  </object>
+  <object id="159" type="object" x="1268.67" y="2390.67" width="126.667" height="26.6667">
+   <properties>
+    <property name="class" value="com.mygdx.game.Door"/>
+    <property name="doorType" value="MARKET"/>
+   </properties>
+  </object>
+  <object id="160" type="object" x="0" y="1600" width="800" height="400"/>
+  <object id="162" type="object" x="2400" y="0" width="800" height="400"/>
+  <object id="163" type="object" x="1600" y="2400" width="400" height="800"/>
+  <object id="165" type="object" x="124.242" y="1415.15" width="136.364" height="136.364">
+   <properties>
+    <property name="class" value="com.mygdx.game.Terrain"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="166" type="object" x="2943.94" y="428.788" width="136.364" height="136.364">
+   <properties>
+    <property name="class" value="com.mygdx.game.Terrain"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="167" type="object" x="1437.88" y="2846.97" width="136.364" height="136.364">
+   <properties>
+    <property name="class" value="com.mygdx.game.Terrain"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="171" type="object" x="827.273" y="22.3636" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="path" type="int" value="172"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="172" name="Path" x="836" y="12">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="28,34 28,870 -798,868"/>
+  </object>
+  <object id="173" name="Path" x="24" y="1116">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="36,4 862,0 860,964 30,962"/>
+  </object>
+  <object id="174" name="Path" x="1124" y="54">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="-8,-2 -2,834 954,832 954,-2"/>
+  </object>
+  <object id="175" name="Path" x="2318" y="54">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="0,0 2,834 814,836"/>
+  </object>
+  <object id="176" name="Path" x="1109.09" y="1106.06">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polygon points="0,0 -6.06061,984.848 1000,981.818 1009.09,3.0303"/>
+  </object>
+  <object id="177" name="Path" x="3154.55" y="1090.91">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="0,0 -866.667,12.1212 -875.758,1000 -12.1212,1006.06"/>
+  </object>
+  <object id="178" name="Path" x="3130.3" y="2309.09">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="0,0 -845.455,0 -833.333,818.182"/>
+  </object>
+  <object id="179" name="Path" x="2096.97" y="3115.15">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="0,0 15.1515,-815.152 -1000,-803.03 -1000,6.06061"/>
+  </object>
+  <object id="180" name="Path" x="893.939" y="3127.27">
+   <properties>
+    <property name="class" value="com.mygdx.game.PeoplePath"/>
+   </properties>
+   <polyline points="0,0 0,-827.273 -824.242,-833.333"/>
+  </object>
+  <object id="181" type="object" x="1047.64" y="1787.64" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="path" type="int" value="176"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="182" type="object" x="399.636" y="855.636" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="2"/>
+    <property name="path" type="int" value="172"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="183" type="object" x="1627.64" y="2067.64" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="1"/>
+    <property name="path" type="int" value="176"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="184" type="object" x="2103.64" y="1527.64" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="2"/>
+    <property name="path" type="int" value="176"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="185" type="object" x="1511.64" y="1055.64" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="3"/>
+    <property name="path" type="int" value="176"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="186" type="object" x="1627.64" y="843.636" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="2"/>
+    <property name="path" type="int" value="174"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="187" type="object" x="1071.64" y="423.636" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="0"/>
+    <property name="path" type="int" value="174"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="188" type="object" x="2287.64" y="475.636" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="0"/>
+    <property name="path" type="int" value="175"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="189" type="object" x="2723" y="883" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="2"/>
+    <property name="path" type="int" value="175"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="190" type="object" x="2631" y="1079" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="1"/>
+    <property name="path" type="int" value="177"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="191" type="object" x="2267" y="1579" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="2"/>
+    <property name="path" type="int" value="177"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="192" type="object" x="2647" y="2071" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="3"/>
+    <property name="path" type="int" value="177"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="193" type="object" x="2075" y="2667" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="1"/>
+    <property name="path" type="int" value="179"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="194" type="object" x="1063" y="2671" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="3"/>
+    <property name="path" type="int" value="179"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="195" type="object" x="375" y="2275" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="1"/>
+    <property name="path" type="int" value="180"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="196" type="object" x="2259" y="2431" width="50" height="50">
+   <properties>
+    <property name="class" value="com.mygdx.game.People"/>
+    <property name="index" type="int" value="1"/>
+    <property name="path" type="int" value="178"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="197" type="object" x="2794" y="397" width="396" height="396">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="198" type="object" x="2" y="1214" width="396" height="396">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="199" type="object" x="1208.06" y="2808.06" width="396" height="396">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="200" type="object" x="1112.55" y="2744.21" width="84" height="523.697">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="201" type="object" x="-23.8182" y="1116.94" width="465.818" height="87.3334">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+  <object id="202" type="object" x="2685.27" y="813.909" width="608.242" height="96.4243">
+   <properties>
+    <property name="class" value="com.mygdx.game.CameraZoomer"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
